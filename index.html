@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Technical Documentation Page</title>
+</head>
+<body>
+<nav id="navbar">
+  <header>Skill Documentation</header>
+  <ul>
+    <a class="nav-link" href="#html"><li>HTML</li></a>
+    <a class="nav-link" href="#css"><li>CSS</li></a>
+    <a class="nav-link" href="#javascript"><li>JavaScript</li></a>
+    <a class="nav-link" href="#java"><li>Java</li></a>
+    <a class="nav-link" href="#JavaScript_and_Java"><li>JavaScript and Java</li></a>
+  </ul>
+</nav>
+
+<main id="main-doc">
+  <section class="main-section" id="html">
+    <header>HTML</header>
+    <article>
+      <h2>What is HTML?</h2>
+      <br>
+      <p>HTML is the standard markup language for creating Web pages.</p>
+      <ul>
+        <li>HTML stands for Hyper Text Markup Language</li>
+        <li>HTML describes the structure of Web pages using markup</li>
+        <li>HTML elements are the building blocks of HTML pages</li>
+        <li>HTML elements are represented by tags</li>
+        <li>HTML tags label pieces of content such as "heading", "paragraph", "table", and so on</li>
+        <li>Browsers do not display the HTML tags, but use them to render the content of the page
+</li>   
+      </ul>
+    </article>
+  </section>
+  <hr>
+  <section class="main-section" id="css">
+    <header>CSS</header>
+    <article>
+      <h2>What is CSS?</h2>
+      <br>
+      <p>CSS is used with HTML</p>
+      <br>
+      <ul>
+        <li>CSS stands for Cascading Style Sheets</li>
+        <li>CSS describes how HTML elements are to be displayed on screen, paper, or in other media</li>
+        <li>CSS saves a lot of work. It can control the layout of multiple web pages all at once</li>
+        <li>External stylesheets are stored in CSS files</li>
+      </ul>
+      <br>
+      <p>A basic CSS code looks like this</p>
+      <code>
+        main {<br>
+        position: relative;<br>
+        margin: auto;<br>
+        background-color: whitesmoke;<br>
+        }<br>
+      </code>
+    </article>
+  </section>
+  <hr>
+  <section class="main-section" id="javascript">
+    <header>JavaScript</header>
+    <article>
+      <h2>What is JavaScript?</h2>
+      <br>
+      <p>This section contains some examples of what JavaScript can do.
+</p>
+      <ul>
+        <li>jQuery</li>
+        <li>AJAX</li>
+        <li>W3.JS</li>
+      </ul>
+      <br>
+      <p>Above you can see a few Java Script libries. (jQuery is the most known)</p>
+      <br>
+			<p>here's example how to create a circle in js</p>
+      <code>
+        var ball=new Circle(100);
+      </code>
+      <p>here's example how to crate rectangle</p>
+      <code>
+        var container = new Rectangle(100,200);
+      </code>
+      
+    </article>
+  </section>
+  <hr>
+  <section class="main-section" id="java">
+    <header>Java</header>
+    <article>
+      <h2>What is Java?</h2><br>
+      <p>Java is a popular programming language, created in 1995.</p><br>
+      <p>It is owned by Oracle, and more than 3 billion devices run Java.</p><br>
+      <p>It is used for:</p>
+      <ul>
+        <li>Mobile applications (specially Android apps)</li>
+        <li>Desktop applications</li>
+        <li>Web applications</li>
+        <li>Web servers and application servers</li>
+        <li>Games</li>
+        <li>Database connection</li>
+        <li>And much, much more!</li>
+      </ul><br>
+      <p>Here is a basic Java code wich print the text Hello World!</p><br>
+      <code>
+      System.out.println("Hello world.");
+      </code>
+    </article>
+  </section>
+  <hr>
+  <section class="main-section" id="JavaScript_and_Java">
+    <header>JavaScript and Java</header>
+    <article>
+      <h2>What are the difference between JavaScript and Java</h2><br>
+      <p>Key differences between Java and JavaScript: Java is an OOP programming language while Java Script is an OOP scripting language. Java creates applications that run in a virtual machine or browser while JavaScript code is run on a browser only. Java code needs to be compiled while JavaScript code are all in text.</p><br>
+ <p>Now i'll show how to print Hello world in JS and Java</p>
+	<p>JavaScript</p>
+			<code>console.log("Hello world.");
+				</code>
+			<p>Java</p>
+			<code>System.out.println("Hello world.");</code>
+    </article>
+  </section>
+</main>
+</body>
+</html>
